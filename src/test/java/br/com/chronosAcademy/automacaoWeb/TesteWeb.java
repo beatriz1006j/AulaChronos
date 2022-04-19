@@ -46,7 +46,6 @@ public class TesteWeb {
 
     @After
     public void finalizaTeste(){
-
-        //driver.quit();
+        driver.quit();
     }
 }

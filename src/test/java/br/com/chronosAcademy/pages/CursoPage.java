@@ -13,7 +13,7 @@ public class CursoPage {
 
     public String getTitulo2() {
         String cssTitulo = "div.text-center > div.large-h1";
-        WebElement txtTitulo = driver.findElement(By.cssSelector(cssTitulo));
+        WebElement txtTitulo =  driver.findElement(By.cssSelector(cssTitulo));
         String titulo = txtTitulo.getText();
         return titulo;
     }

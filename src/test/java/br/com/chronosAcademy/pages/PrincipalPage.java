@@ -14,15 +14,12 @@ public class PrincipalPage {
 
     public String getTitulo() {
         String xpathTitulo = "//section[2]//h4";
-
         WebElement txtTitulo = driver.findElement(By.xpath(xpathTitulo));
         String titulo = txtTitulo.getText();
         return titulo;
     }
-
-    public  void clickBotao() {
+    public void clickBotao() {
         String xpathBotao = "//section[2]/div[3]//a";
-
         WebElement  btnTitulo = driver.findElement(By.xpath(xpathBotao));
         btnTitulo.click();
     }
